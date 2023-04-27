@@ -33,6 +33,8 @@ summary(temp)
 
 boxplot(wind, horizontal = TRUE, outline = TRUE, pch = 8)
 
+boxplot(wind)
+
 # 7) According to the boxplot of wind what kind of a distribution it has? 
 
 negatively skewed destribution
@@ -69,3 +71,8 @@ names(count[count==max(count)])
 
 count1 <- table(day[month == "jul"])
 names(count1[count1 == max(count1)])
+
+#variance
+
+var(wind)
+?var
